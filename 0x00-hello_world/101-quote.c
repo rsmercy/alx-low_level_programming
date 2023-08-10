@@ -1,6 +1,10 @@
 #include <stdio.h>
-
-int main(void) { write(2, "and that piece of art is useful" - Dora Korpar, 2015-10-19\n", 61);
-
+#include <unistd.h>
+/**
+ * main - A program that prints a line using printf function
+ * Return 1 (Success)
+ */
+int main(void){
+        fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
 return (1);
 } 
