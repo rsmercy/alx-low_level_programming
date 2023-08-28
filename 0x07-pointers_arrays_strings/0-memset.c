@@ -7,7 +7,8 @@
  *
  * Return: changed array with new value for n bytes
  */
-char *_memset(char *s, char b, unsigned int n)
+
+void *_memset(void *s, int c, size_t n)
 {
 	unsigned int index;
 	unsigned char *memory = s, value = c;
