@@ -9,13 +9,12 @@
 void _puts(char *str)
 {
 	int count = 0;
-	char c; /* characters corresponding to index */
+	char c; 
 
 	while (str[count] != '\0')
 	{
 		c = str[count];
 		_putchar(c);
-		/* increasing count to print next character*/
 		count++;
 	}
 	_putchar('\n');
