@@ -1,17 +1,21 @@
 #include "main.h"
 /**
- * _memset - Program fills a block of memory with a specific value
- * @n: number of bytes to be changed
- *
- * Return: change array with new value for n bytes
- */
+  *_memset - prints bytes b, n times
+  *@s: buffer
+  *@b: bytes
+  *@n: number of bytes
+  *
+  *Return: string s
+  */
 char *_memset(char *s, char b, unsigned int n)
 {
-int d = 0;
-for (; n > 0; a++)
-{
-s[d] = b;
-n--;
-}
-return (s);
+	unsigned int i;
+
+	i = 0;
+	while (i < n)
+	{
+		s[i] = b;
+		i++;
+	}
+	return (s);
 }
