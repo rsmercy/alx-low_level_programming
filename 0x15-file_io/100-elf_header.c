@@ -20,7 +20,6 @@ void close_elf(int elf);
 /**
  * check_elf - Checks if a file is an ELF file.
  * @e_ident: A pointer to an array containing the ELF magic numbers.
- * Ramatu Abubakar
  *
  * Description: If the file is not an ELF file - exit code 98.
  */
@@ -247,7 +246,6 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident)
 /**
  * close_elf - Closes an ELF file.
  * @elf: The file descriptor of the ELF file.
- * Ramatu Abubakar
  *
  * Description: If the file cannot be closed - exit code 98.
  */
@@ -266,7 +264,6 @@ void close_elf(int elf)
  * ELF header at the start of an ELF file.
  * @argc: The number of arguments supplied to the program.
  * @argv: An array of pointers to the arguments.
- * Ramatu Abubakar
  *
  * Return: 0 on success.
  *
